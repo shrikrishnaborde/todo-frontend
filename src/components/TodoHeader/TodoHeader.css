@@ -1,0 +1,12 @@
+.todo-heading {
+  font-family: "Domine", serif;
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 32px;
+  letter-spacing: -0.28px;
+  color: #212121;
+  margin: 0;
+  margin-bottom: 12px;
+  text-align: left;
+  white-space: pre-wrap;
+}
