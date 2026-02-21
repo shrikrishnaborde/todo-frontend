@@ -48,9 +48,11 @@ async function deleteTodo(id) {
   return handleResponse(res);
 }
 
-export default {
+const todoService = {
   API_BASE,
   fetchTodos,
   addTodo,
   deleteTodo,
 };
+
+export default todoService;
