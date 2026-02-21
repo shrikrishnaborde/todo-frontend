@@ -45,17 +45,6 @@ function TodoApp() {
     }
   };
 
-  const addTask = async (text) => {
-    try {
-      const newTask = await todoService.addTodo({ text });
-      // backend should return created task
-      setTasks((t) => [...t, newTask]);
-    } catch (err) {
-      console.error("Add task failed", err);
-      setError(err.message || "Add task failed");
-    }
-  };
-
   return (
     <div className="todo-container">
       <div className="todo-content">
